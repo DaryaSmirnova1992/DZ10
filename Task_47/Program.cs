@@ -11,7 +11,7 @@ for (int i=0; i<rows; i++)
 {
     for (int j=0; j<columns; j++)
     {
-        array[i,j] = new Random().Next(0,10)*100;
+        array[i,j] = new Random().NextDouble()* 10;
         Console.Write(Math.Round(array[i,j], 2)+ "\t");
     }
     Console.WriteLine();
